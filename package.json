@@ -1,6 +1,11 @@
 {
+	"scripts": {
+		"start": "node ./dist/index",
+		"build": "tsc"
+	},
 	"type": "module",
 	"devDependencies": {
-		"@types/node": "^15.0.0"
+		"@types/node": "^15.0.0",
+		"tsc": "^1.20150623.0"
 	}
 }
